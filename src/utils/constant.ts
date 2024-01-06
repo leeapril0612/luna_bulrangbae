@@ -1,0 +1,2 @@
+export const API_KEY = 'live_44f44fd56452e77c86a01d3e64b88ac4b8defc51c28a8d30e35f3bf9d098d739b9cd2248b1b7fef775d017eb94b3c9fd'
+export const GUILD_ID = '3d60389f7a01d92cc6eabca9916e073e'

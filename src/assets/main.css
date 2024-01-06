@@ -1,0 +1,43 @@
+#app {
+  overflow-y: hidden;
+}
+body {
+  background-image: url(./mshalloween_01_2560x1440.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrap {
+  max-width: 500px;
+  width: 100%;
+}
+
+.card {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15px auto;
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+}
+.card .title {
+  color: #41df51;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.card .body {
+  color: #fff;
+  padding: 0px 10px;
+}
+.card .body p{
+  padding:5px 0;
+  margin:0
+}
+table * {
+  border: 1px solid #333
+}
